@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Manana",
+        "surname": "Gedevanishvili",
+        "position": "Front-end Engeneer",
+        "expertize": "html, css, scss, javascript, node, vue.js ..."
+    },
+    {
+        "id": 2,
+        "name": "Andrey",
+        "surname": "Yatsenko",
+        "position": "Back-end Engeneer",
+        "expertize": "php, node, docker, jenkins ..."   
+    },
+    {
+        "id": 3,
+        "name": "Hryhorii",
+        "surname": "Hrebeniuk",
+        "position": "Front-end Engeneer, team lead",
+        "expertize": "html, css, javascript, php, node, docker, jenkins ..."   
+    },
+    {
+        "id": 4,
+        "name": "Mari",
+        "surname": "Kerdikashvili",
+        "position": "Front-end Engeneer",
+        "expertize": "html, css, scss, javascript, node, vue.js ..."
+    },
+    {
+        "id": 5,
+        "name": "Dudu",
+        "surname": "Chkhartishvili",
+        "position": "Back-end Engeneer",
+        "expertize": "php, node, docker, jenkins ..."   
+    },
+    {
+        "id": 6,
+        "name": "Hryhorii",
+        "surname": "Hrebeniuk",
+        "position": "Front-end Engeneer, team lead",
+        "expertize": "html, css, javascript, php, node, docker, jenkins ..."   
+    }
+]
