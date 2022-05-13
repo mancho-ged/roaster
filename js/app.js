@@ -2,11 +2,13 @@
 import HomeView from './views/HomeView.js';
 import DetailsView from './views/DetailsView.js';
 
+const PROJECT_DIRECTORY = '/roaster/';
+
 const router = async () => {
 
     const route = [
-        { path: '/', view: HomeView},
-        { path: '/details.html', view: DetailsView}
+        { path: PROJECT_DIRECTORY, view: HomeView},
+        { path: PROJECT_DIRECTORY + 'details.html', view: DetailsView}
     ]
     // Test each route for potential match
     const potentialMatches = route.map(path => {
