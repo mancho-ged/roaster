@@ -1,4 +1,5 @@
 export default class HomeView {
+    PROJECT_DIRECTORY = '/roaster/';
     app = document.getElementById("app");
     pagination = document.getElementById("pagination");
     grid = document.createElement("div");
@@ -90,7 +91,7 @@ export default class HomeView {
     
     getView() {
         let displayTeam = () => {
-            fetch("./team.json")
+            fetch(this.PROJECT_DIRECTORY + "team.json")
                 .then((response) => response.json())
                 .then((data) => this.renderGrid(data));
         };
